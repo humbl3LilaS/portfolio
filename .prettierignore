@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+coverage
+.astro
+.github
+.gitignore
+public
+.idea
+.vscode
+dist

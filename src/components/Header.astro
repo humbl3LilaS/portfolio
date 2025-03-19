@@ -1,0 +1,35 @@
+---
+import MobileNav from "./mobile-nav";
+import ThemeToggle from "./theme-toggle";
+import { Button } from "./ui/button";
+---
+
+<header class="p-6">
+    <div class="flex items-center justify-between">
+        <h1 class="text-lg font-header tracking-wide">
+            <a href="#about">
+                San Linn
+            </a>
+        </h1>
+        <nav class="hidden md:block">
+            <ul class="flex items-center gap-x-8 text-header font-medium">
+                <li>
+                    <a href={"#about"}>About</a>
+                </li>
+                <li>
+                    <a href={"#experiences"}>Experiences</a>
+                </li>
+                <li>
+                    <a href={"#projects"}>Projects</a>
+                </li>
+                <li>
+                    <a href={"#contact"}>Contact</a>
+                </li>
+                <ThemeToggle client:load />
+                <Button>Download CV</Button>
+            </ul>
+
+        </nav>
+        <MobileNav client:load />
+    </div>
+</header>
