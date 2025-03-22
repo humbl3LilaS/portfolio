@@ -1,0 +1,23 @@
+---
+import Section from "./Section.astro";
+import SectionHeader from "./SectionHeader.astro";
+import { PROJECTS } from "../assets/constants";
+import Project from "./Project.astro";
+---
+<Section id="projects">
+    <SectionHeader header="Projects" />
+    <div class="mt-4 grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:mt-8">
+        {
+            PROJECTS.map(item =>
+                <Project
+                    liveUrl={item.liveUrl}
+                    title={item.title}
+                    coverImage={item.coverImage}
+                    tags={item.tags}
+                    repoUrl={item.repoUrl}
+                    description={item.description}
+                />
+            )
+        }
+    </div>
+</Section>
