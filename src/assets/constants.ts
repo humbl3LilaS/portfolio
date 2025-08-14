@@ -3,7 +3,7 @@ export const PROJECTS = [
         title: "MyanTech",
         tags: ["nextJS", "typescript", "drizzle", "neon", "Shadcn UI"],
         repoUrl: "https://github.com/humbl3LilaS/team-ikigai",
-        liveUrl: "https://kumo-liart.vercel.app/",
+        liveUrl: "https://team-ikigai.vercel.app/",
         coverImage: "/project-images/myan-tech.png",
         description:
             "An award winning project at Code2Career Hackathon 2024 organized by JICA Myanmar Office",
