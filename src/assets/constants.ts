@@ -24,4 +24,22 @@ export const PROJECTS = [
         coverImage: "/project-images/feedback-board.png",
         description: "A feedback board where user can share feedback about the product",
     },
+    {
+        title: "Flowhub Productivity Suite",
+        tags: ["NextJS", "TypeScript", "Neon", "Shadcn UI"],
+        repoUrl: "https://github.com/one-project-one-month/Productivity-Suite-Next",
+        liveUrl: "https://sweet-productivity-suite.netlify.app/",
+        coverImage: "/project-images/flowhub.png",
+        description:
+            "A Productivity Suit where user can use to manage their time, notes and budgets",
+    },
+    {
+        title: "Horonet",
+        tags: ["NextJS", "TypeScript", "Neon", "Shadcn UI", "React Router", "TRPC"],
+        repoUrl: "https://github.com/one-project-one-month/horonet-next",
+        liveUrl: "https://horonet.netlify.app/landing",
+        coverImage: "/project-images/horonet.png",
+        description:
+            "A platform with where user can connect and share wisdom with other user using Zodiac Sign as based theme.",
+    },
 ];

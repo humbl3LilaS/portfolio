@@ -44,7 +44,9 @@ const MobileNav = () => {
                     <p>Switch Theme</p>
                     <ThemeToggle />
                 </div>
-                <Button>Download CV</Button>
+                <Button asChild={true} className={"cursor-pointer"}>
+                    <a href={"/cv.pdf"}>Download CV</a>
+                </Button>
             </SheetContent>
         </Sheet>
     );
